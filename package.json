@@ -1,7 +1,11 @@
 {
   "name": "bookmyshow",
-  "version": "16.9.0",
+  "version": "0.0.0",
   "private": true,
+  "engines":{
+    "node":"14.18.2",
+    "npm":"6.14.15"
+  },
   "scripts": {
     "start": "node ./bin/www",
     "dev": "nodemon ./bin/www"
